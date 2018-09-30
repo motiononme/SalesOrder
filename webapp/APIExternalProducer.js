@@ -1,0 +1,1 @@
+(function(){var _open = XMLHttpRequest.prototype.open;XMLHttpRequest.prototype.open = function(){_open.apply(this, arguments);var sUrl = arguments[1];if(sUrl && sUrl.indexOf("/apihub_sandbox/") > -1 ) {this.setRequestHeader("APIKey", "Mx4oGiflDD0GFVE2u5jc0NQGWspJiCBC");}};}());
